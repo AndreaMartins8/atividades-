@@ -1,6 +1,9 @@
 body{
     background-color: black;
     color: white;
+    background-image: url("../Imagens/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -9,4 +12,10 @@ body{
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 50px;
+}
+
+.titulo{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
 }
