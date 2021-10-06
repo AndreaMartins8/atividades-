@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+    <link rel="icon" href="imagens/icon.png" type="image/png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="titulo">Conceito</h1>
+        <p>Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre,
+            e calcule a sua média.<br> A atribuição de conceitos obedece à tabela abaixo:</p>
+        <pre>
+  Média de Aproveitamento  Conceito
+  Entre 9.0 e 10.0          A
+  Entre 7.5 e 9.0           B
+  Entre 6.0 e 7.5           C
+  Entre 4.0 e 6.0           D
+  Entre 4.0 e zero  
+</pre>
+        <p>O algoritmo deve mostrar na tela as notas, a média,<br> o conceito correspondente e a mensagem “APROVADO” se o
+            conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.</p>
+        <form>
+            Nota 1: <input type="number" id="nota1"><br>
+            Nota 2: <input type="number" id="nota2"><br>
+            <button type="button" onclick="VerificarConceito() ;">Verificar Conceito</button>
+
+            <div id="resposta"></div>
+        </form>
+
+    </div>
+    <script src="app08.js"></script>
+</body>
+
+</html>
